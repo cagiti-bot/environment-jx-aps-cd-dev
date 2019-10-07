@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:jx-aps-cd/adminUser:password
+  username: admin
+dashboardAuthID: vault:jx-aps-cd:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:jx-aps-cd:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: cagitibot@gmail.com
+  token: vault:jx-aps-cd/pipelineUser:token
+  username: cagiti-bot
+prow:
+  hmacToken: vault:jx-aps-cd/prow:hmacToken
